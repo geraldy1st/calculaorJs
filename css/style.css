@@ -5,30 +5,36 @@ html, body{
   padding: 0;
 }
 input[type=button]{
-  margin: 3px;
+  margin: 2px;
   padding: 10px;
   width: 50px;
-  height: 35px;
-  background-color: #D8D8D8;
-  font-weight: bold;
+  height: 50px;
+  background-color: #CCC;
+  color: #EEE;
+  font-weight: lighter;
+  border-radius: 50%;
+  font-size: 16px;
 }
 input[type="text"]{
   width: 230px;
   margin: 10px 3px 15px 3px;
   padding: 5px 5px 45px 5px;
   box-sizing: border-box;
-  background-color: #FBD69F;
-  color: #3F51B5;
+  background-color: #444;
+  color: #EEE;
 
 }
 
 form#Calculator {
+  background-color: #0e0c03;
+  background-image: linear-gradient(90deg, #0e0c03 0%, #F76B1C 100%);
+
   text-align: center;
   width: 270px;
   margin: 35px auto;
   padding: 35px 5px;
   border: 1px solid #CCC;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 #Ans{
   font-size: 15px;
@@ -38,4 +44,11 @@ form#Calculator {
 h1{
   text-align: center;
   color: #111;
+}
+#Calculator .orange{
+  color: #FFF;
+  background-color: orange;
+}
+#Calculator .silver{
+  background-color: #555;
 }
