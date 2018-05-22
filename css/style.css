@@ -1,0 +1,26 @@
+html, body{
+  font-family:cursive;
+  background-color: #EEE;
+  margin: 0;
+  padding: 0;
+}
+input[type=button]{
+  margin: 3px;
+  padding: 10px;
+  width: 50px;
+  background-color: #D8D8D8;
+  font-weight: bold;
+}
+input[type="text"]{
+  width: 230px;
+  margin: 10px 3px 15px 3px;
+  padding: 5px 5px 45px 5px;
+  box-sizing: border-box;
+  background-color: #FBD69F;
+  color: #3F51B5;
+}
+form#Calculator {
+  text-align: center;
+  width: 270px;
+  margin: 35px auto;
+}
