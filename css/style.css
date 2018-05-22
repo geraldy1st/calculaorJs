@@ -52,3 +52,21 @@ h1{
 #Calculator .silver{
   background-color: #555;
 }
+.fantome1{
+  font-size: 6em;
+  transition: .5s;
+  margin: 0 auto;
+}
+.fantome1:hover{
+  transform: rotate(359deg) scale(20);
+  opacity: 0;
+}
+#lien{
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+  position: absolute;
+  left: 50%;
+  bottom:5%;
+  transform: translateX(-50%);
+}
